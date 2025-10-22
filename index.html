@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instituto Scooby-Doo</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -34,6 +35,9 @@
                 </picture>
             </h2>
             <picture> 
+                <!-- tenta carregar uma imagem responsiva. Ou seja tela maior carrega uma foto maior -->
+                <source media="(max-width: 750px)" srcset="img/foto-p.jpg" type="image/jpg">
+                <source media="(max-width: 1050px)" srcset="img/foto-m.jpg" type="image/jpg">
                 <img src="img/foto-g.jpg" alt="imagem flexivel">
             </picture>
             <h2>Fundado em outubro de 2025, a partir da união de um grupo de pessoas em prol do propósito de cuidar
