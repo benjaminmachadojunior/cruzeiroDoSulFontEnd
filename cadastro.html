@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>O Instituto Scooby-Doo</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Página inicial</a>
+        <a href="projetos.html">Projetos sociais</a>
+        <a href="cadastro.html">Cadastro</a>
+
+    </nav>
+
+    <main>
+        <div class="card">
+            <h1>Seja voluntario</h1>
+            <h2>Transforme suas habilidades em solidariedade.</h2>
+            <h2>Você tem talentos e conhecimentos que podem fortalecer nossa causa? No Instituto Scooby-Doo, acreditamos
+                que cada pessoa tem algo único a oferecer. Estamos procurando voluntários para atuar em áreas como:</h2>
+            <ol>
+                <li>Mentorias: compartilhe sua experiência profissional.</li>
+                <li>Comunicação: ajude a divulgar nossa missão nas redes sociais.</li>
+                <li>Eventos: colabore na organização e execução de nossas atividades.</li>
+                <li>Área administrativa: ajude com tarefas operacionais e de gestão.</li>
+                <li>Seja qual for seu talento, temos uma oportunidade para você.</li>
+            </ol>
+        </div>
+
+
+        <div class="card">
+
+            <h1>Cadastre-se</h1>
+
+            <!-- nome completo -->
+            <h2><label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+            </h2>
+
+            <!-- e-mail -->
+            <h2><label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </h2>
+
+            <!-- CPF -->
+            <p>CPF: <input type="text" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" placeholder="000.000.000-00"
+                    title="Formato: 000.000.000-00">
+                <p>
+
+                    <!-- Telefone Celular -->
+                    <H2>telefone: <input type="tel" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="(00) 00000-0000"
+                            title="Formato: (00) 00000-0000"></h2>
+
+                    <!-- data Nascimento -->
+                    <label for="nascimento">Data de Nascimento:</label>
+                    <input type="date" id="nascimento" name="nascimento">
+
+                    <!-- CEP -->
+                    <H2>CEP: <input type="text" pattern="[0-9]{5}-[0-9]{3}" placeholder="00000-000"
+                            title="Formato: 00000-000">
+                    </H2>
+
+                            <!-- Endereço -->
+                            <h2><label for="endereco">Endereço: </label>
+                                <input type="text" id="endereco" name="endereco" required>
+                            </h2>
+
+                            <!-- Cidade -->
+                            <h2><label for="cidade">Cidade: </label>
+                                <input type="text" id="cidade" name="cidade" required>
+                            </h2>
+                            <!-- Estado -->
+                            <h2><label for="estado">Estado: </label>
+                                <input type="text" id="estado" name="estado" required>
+                            </h2>
+
+                            <button type="submit">Enviar</button>
+
+        </div>
+    </main>
+    <footer>
+        <p>Rodapé ₢ 2025</p>
+        <p>Av. Institutos 1000 - São Paulo - SP</p>
+    </footer>
+
+</body>
+
+</html>
