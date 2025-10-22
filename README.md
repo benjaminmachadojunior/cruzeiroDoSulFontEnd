@@ -1,10 +1,10 @@
-Objetivo: primcipal manter o repositorio com o codigo do Front end com as etapas de contrução solicitadas pelo professor da faculdade Cruzeiro do Sul.
+#Objetivo: primcipal manter o repositorio com o codigo do Front end com as etapas de contrução solicitadas pelo professor da faculdade Cruzeiro do Sul.
 
-Por exemplo nesta etapa do projeto onde tenho que construir o README seria 
+##Por exemplo nesta etapa do projeto onde tenho que construir o README seria 
 
-Entrega IV
+##Entrega IV
 
-Benjamin de Oliveira Machado Junior RGM: 1845013641.
+###Benjamin de Oliveira Machado Junior RGM: 1845013641.
 
 O que faz este Projeto?
 Este projeto seria um front end de um exemplo de um site de um Instituto.
@@ -19,3 +19,4 @@ tecnologia se preoculpa com o que ?
 Formulario,
 Responsividade,
 Imagens dinamicas de tamanho para responsividade e de tipo para estudos de compatividade com brousers.
+<img width="265" height="406" alt="Captura de tela 2025-10-21 232725" src="https://github.com/user-attachments/assets/1d834e97-b9a0-49f4-a3d7-64690db4b551" />
