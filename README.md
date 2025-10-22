@@ -18,5 +18,6 @@ Neste caso seria um exemplo de um sem fins lucrativo para cuidados de Cães aban
 tecnologia se preoculpa com o que ?
 Formulario,
 Responsividade,
-Imagens dinamicas de tamanho para responsividade e de tipo para estudos de compatividade com brousers.
+Imagens dinamicas de tamanho para responsividade e de tipo para estudos de compatividade com brousers. Abaixo print para versão mobile
+
 <img width="265" height="406" alt="Captura de tela 2025-10-21 232725" src="https://github.com/user-attachments/assets/1d834e97-b9a0-49f4-a3d7-64690db4b551" />
